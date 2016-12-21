@@ -1998,4 +1998,5 @@ addcompletions
 
 export ANDROID_BUILD_TOP=$(gettop)
 
-. vendor/crooked/build/envsetup.sh
+. $ANDROID_BUILD_TOP/vendor/crooked/build/envsetup.sh
+
